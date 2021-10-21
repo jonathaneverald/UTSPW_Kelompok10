@@ -25,7 +25,7 @@
 
             //Content
             $mail->isHTML(true);                                  //Set email format to HTML
-            $mail->Subject = 'onMart Account Verification';
+            $mail->Subject = 'OnMart Account Verification';
             $mail->Body    = "<a href='http://localhost:8080/UTS_PAW/page/loginPage.php?authCode=$authCode'>Confirm your Account</a>";
             
 
