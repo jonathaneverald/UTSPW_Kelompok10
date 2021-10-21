@@ -6,6 +6,10 @@
         if($query->num_rows == 1){
             $verifUpdate = mysqli_query($con,
                 "UPDATE users set verifikasi = 1 WHERE otentikasi = '$temp' ") or die(mysqli_error($con));
+                echo
+                    '<script>
+                    alert("Account has been verified"); window.location = "loginPage.php"
+                    </script>';
         }
         else{
             echo 'This account is invalid or already verified';
