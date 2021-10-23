@@ -7,7 +7,7 @@
         <!-- Bootstrap CSS -->
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
             <link href="../style.css" rel="stylesheet">
-                <title>Register Page</title>
+                <title>Daftar</title>
     </head>
  <body>
     <nav class="navbar navbar-dark bg-dark fixed-top">
@@ -15,10 +15,10 @@
             <a class="navbar-brand fw-bold" href="../index.php">onMart</a>
             <div class="d-flex justify-content-end">
                     <button class="btn btn-warning ms-2" type="button" href="../loginPage.php">
-                         <a class="text-light" style="text-decoration: none" href="../page/loginPage.php">Login</a>
+                         <a class="text-light" style="text-decoration: none" href="../page/loginPage.php">Masuk</a>
                     </button>
                     <button class="btn btn-warning ms-2" type="button" href="../registerPage.php">
-                         <a class="text-light" style="text-decoration: none" href="../page/registerPage.php">Register</a>
+                         <a class="text-light" style="text-decoration: none" href="../page/registerPage.php">Daftar</a>
                     </button>
             </div>
         </div>
@@ -30,7 +30,7 @@
                     <div class="card-body">
                         <form action="../process/registerProcess.php" method="post">
                             <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Name</label>
+                                <label for="exampleInputEmail1" class="form-label">Nama</label>
                                 <input class="form-control" id="name" name="name" aria-describedby="emailHelp">
                             </div>
                             <div class="mb-3">
@@ -50,7 +50,7 @@
                                 <input class="form-control" id="no_telp" name="no_telp" aria-describedby="emailHelp">
                             </div>
                             <div class="d-grid gap-2">
-                                <button type="submit" class="btn btn-primary" name="register">Register</button>
+                                <button type="submit" class="btn btn-primary" name="register">Daftar</button>
                             </div>
                         </form>
                             <p class="mt-2 mb-0">Sudah punya akun ? <a href="./loginPage.php" class="text-primary">Login Disini!</a></p>

@@ -15,10 +15,10 @@
                 <a class="navbar-brand fw-bold" href="./index.php">onMart</a>
                 <div class="d-flex justify-content-end">
                     <button class="btn btn-warning ms-2" type="button" href="./loginPage.php">
-                         <a class="text-light" style="text-decoration: none" href="./page/loginPage.php">Login</a>
+                         <a class="text-light" style="text-decoration: none" href="./page/loginPage.php">Masuk</a>
                     </button>
                     <button class="btn btn-warning ms-2" type="button" href="./registerPage.php">
-                         <a class="text-light" style="text-decoration: none" href="./page/registerPage.php">Register</a>
+                         <a class="text-light" style="text-decoration: none" href="./page/registerPage.php">Daftar</a>
                     </button>
                 </div>
             </div>

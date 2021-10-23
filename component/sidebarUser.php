@@ -61,19 +61,19 @@
                    <div class="menu">
                        <div class="content-menu " >
                            <i class="fa fa-list"></i>
-                           <a href="../page/productPageUser.php" style="font-weight:600">Product</a>
+                           <a href="../page/productPageUser.php" style="font-weight:600">Produk</a>
                        </div>
                        <div class="content-menu " >
                            <i class="fa fa-address-card"></i>
-                           <a href="./aboutUsPage.php" style="font-weight:600">About Us</a>
+                           <a href="./aboutUsPage.php" style="font-weight:600">Tentang Kita</a>
                        </div>
                        <div class="content-menu " >
                            <i class="fa fa-user"></i>
-                           <a href="./profilPage.php" style="font-weight:600">Profil User</a>
+                           <a href="./profilPage.php" style="font-weight:600">Profil</a>
                        </div>
                        <div class="content-menu " >
                             <i class="fa fa-sign-out"></i>
-                            <a href="../process/logoutProcess.php" style="font-weight:600">Logout</a>
+                            <a href="../process/logoutProcess.php" style="font-weight:600">Keluar</a>
                        </div>
                         <hr>
                    </div>

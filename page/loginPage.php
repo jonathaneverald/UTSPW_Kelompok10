@@ -26,7 +26,7 @@
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrit
             y="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
             <link href="../style.css" rel="stylesheet">
-                <title>Login Page</title>
+                <title>Masuk</title>
     </head>
  <body>
     <nav class="navbar navbar-dark bg-dark fixed-top">
@@ -34,10 +34,10 @@
             <a class="navbar-brand fw-bold" href="../index.php">onMart</a>
             <div class="d-flex justify-content-end">
                     <button class="btn btn-warning ms-2" type="button" href="../loginPage.php">
-                         <a class="text-light" style="text-decoration: none" href="../page/loginPage.php">Login</a>
+                         <a class="text-light" style="text-decoration: none" href="../page/loginPage.php">Masuk</a>
                     </button>
                     <button class="btn btn-warning ms-2" type="button" href="../registerPage.php">
-                         <a class="text-light" style="text-decoration: none" href="../page/registerPage.php">Register</a>
+                         <a class="text-light" style="text-decoration: none" href="../page/registerPage.php">Daftar</a>
                     </button>
             </div>
         </div>
@@ -45,7 +45,7 @@
         <div class="bg bg-light text-dark">
             <div class="container min-vh-100 d-flex align-items-center justify-content-center">
                 <div class="card text-dark bg-light ma-5 shadow" style="min-width: 25rem;">
-                    <div class="card-header fw-bold">Login</div>
+                    <div class="card-header fw-bold">Masuk</div>
                         <div class="card-body">
                             <form action="../process/loginProcess.php" method="post">
                                 <div class="mb-3">
@@ -57,10 +57,10 @@
                                     <input type="password" class="form-control" id="password" name="password">
                                 </div>
                                 <div class="d-grid gap-2">
-                                    <button type="submit" class="btn btn-primary" name="login">Login</button>
+                                    <button type="submit" class="btn btn-primary" name="login">Masuk</button>
                                 </div>
                             </form>
-                                <p class="mt-2 mb-0">Need an Account? <a href="./registerPage.php" class="textprimary">Sign Up</a></p>
+                                <p class="mt-2 mb-0">Tidak punya akun? <a href="./registerPage.php" class="textprimary">Daftar disini</a></p>
                         </div>
                     </div>
                 </div>
